@@ -1,0 +1,47 @@
+.rectangleRose{
+    background-color: #FA8072;
+    /* position: relative ; */
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    top:0px;
+}
+
+.carreMauve1{
+    background-color: #663399;
+    position:sticky;
+    height: 100px;
+    width: 100px;
+    margin-left: 80%;
+    bottom: 200px;
+    
+}
+
+.rectangleBleu{
+    background-color: #00FFFF;
+    position: relative;
+    height: 500px;
+    width: 70%;
+    top: 100px;
+    margin-left: 10%;
+}
+
+.carreMauve2{
+    background-color:#663399;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    margin-left: 75%;
+
+}
+
+.rectangleBleu2{
+    background-color:#00FFFF;
+    position: absolute;
+    height: 2000px;
+    width: 70%;
+
+}
+
+.carreJaune
