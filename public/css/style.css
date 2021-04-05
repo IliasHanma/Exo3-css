@@ -1,6 +1,6 @@
 .rectangleRose{
     background-color: #FA8072;
-    /* position: relative ; */
+    /* position: absolute; */
     position: fixed;
     height: 150px;
     width: 100%;
@@ -9,11 +9,11 @@
 
 .carreMauve1{
     background-color: #663399;
-    position:sticky;
+    position: relative;
     height: 100px;
     width: 100px;
     margin-left: 80%;
-    bottom: 200px;
+    top: 70px;
     
 }
 
@@ -28,7 +28,7 @@
 
 .carreMauve2{
     background-color:#663399;
-    position: relative;
+    position: absolute;
     height: 100px;
     width: 100px;
     top: 50px;
@@ -38,10 +38,19 @@
 
 .rectangleBleu2{
     background-color:#00FFFF;
-    position: absolute;
+    position: relative;
     height: 2000px;
     width: 70%;
+    margin-left: 10%;
+
 
 }
 
-.carreJaune
+.carreJaune{
+    background-color: #FFFF00;
+    position: absolute;
+    position: sticky;
+    top : 10px;
+    height: 250px;
+    width: 250px;
+}
